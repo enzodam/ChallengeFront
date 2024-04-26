@@ -64,3 +64,8 @@ body {
     width: 275px;
     height: 80px;
 }
+
+.cabecalho__opcao {
+    text-decoration: none;
+    color:rgb(199, 196, 196);
+}

@@ -26,3 +26,7 @@ body {
 .lista{
     font-size: 20px;
 }
+
+.lista__opcao {
+    text-decoration: none;
+}
