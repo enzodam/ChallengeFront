@@ -1,0 +1,26 @@
+body {
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    color: rgb(199, 196, 196);
+    background-color: #292950;
+}
+#container1 {
+    display: flex;
+    justify-content: center;
+    font-size: 20px;
+}
+#container1 img {
+    width: 104px;
+    height: 104px;
+}
+#container2 {
+    background-color: rgb(153, 6, 6);
+    font-size: 20px;
+}
+.começo {
+    display: flex;
+    justify-content: center;
+}
+.chat{
+    font-size: 25px;
+}
