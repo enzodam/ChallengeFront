@@ -13,3 +13,8 @@
 * 557937 - Enzo Prado Soddano
 
 * 558438 - Enzo Dias Alfaia Mendes
+
+  ### Acesso secundário ao FIGMA
+
+* Email: challenge2024aee@outlook.com
+* Senha: amandaenzos123!
