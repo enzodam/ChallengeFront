@@ -1,0 +1,110 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5em;
+    color: #292950;
+    background-color: #292950;
+}
+
+header {
+    text-align: center;
+    margin-top: 5%;
+}
+
+header img {
+    width: 15%;
+    height: auto;
+}
+
+main {
+    background-color: rgb(199, 196, 196);
+    padding: 1%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: top;
+    height: 80vh;
+}
+
+.comeco {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2%;
+}
+
+.chat {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 1rem;
+    width: 100%;
+}
+
+.chat p {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.chat input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#voltarButton {
+    width: 50%; 
+    background-color: #292950;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1%;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+.chat a{
+    text-decoration: none;
+    color: #292950;
+}
+#voltarButton:hover {
+    background-color: #3b3b78;
+}
+
+footer {
+    background-color: #292950;
+    color: white;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
+
+/* Media Queries - Dispositivos Móveis */
+@media (max-width: 768px) {
+    header img {
+        width: 40%;
+        height: auto;
+    }
+    main{
+        padding-top: 5%;
+    }
+    body {
+        font-size: 1rem;
+    }
+
+    .chat input {
+        font-size: 5rem;
+    }
+
+}

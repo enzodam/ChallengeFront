@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastrar Mecânico</title>
+    <link rel="stylesheet" href="styles/cadastrar__mecanico.css">
+</head>
+<body>
+    <header>
+        <img src="assets/Logo.png" alt="Logo">
+    </header>
+    <main>
+        <div class="comeco">
+            <h1>Cadastrar Mecânico</h1>
+        </div>
+        <form id="form">
+            <label for="name__oficina">Nome Da Oficina: </label>
+            <input type="text" id="name__oficina" name="name__oficina" required autofocus maxlength="50">
+
+            <label for="local">Local: </label>
+            <input type="text" id="local" name="local" required autofocus maxlength="50">
+
+            <label for="telefone">Telefone:</label>
+            <input type="tel" id="telefone" name="telefone" required>
+
+            <label for="cnpj">CNPJ:</label>
+            <input type="number" id="cnpj" name="cnpj" required autofocus maxlength="50">
+
+            <label for="hora">Horário de Funcionamento:</label>
+            <input type="text" id="hora" name="hora" required autofocus maxlength="50">
+
+            <label for="servicos">Serviços Oferecidos:</label>
+            <input type="text" id="servicos" name="servicos" required autofocus maxlength="500">
+
+            <div id="errorMessages" class="error-messages"></div>
+
+            <button type="submit" id="cadastrar">Cadastrar</button>
+        </form>
+        <button type="button" id="voltarButton">Voltar</button>
+    </main>
+    <footer>
+        <p>&copy; 2024 SOS Mecânico</p>
+    </footer>
+    <script src="scripts/cadastrar__mecanico.js"></script>
+</body>
+</html>
