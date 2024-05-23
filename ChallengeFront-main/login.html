@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="styles/login.css">
+</head>
+<body>
+    <div class="logo">
+        <a href="inicio.html"><img src="assets/Logo.png" alt="Logo"></a>
+    </div>
+    <main>
+        <section class="container">
+            <img class="usuario" src="assets/usuario.jfif" alt="Usuário">
+            <input id="login" type="text" placeholder="Login" required>
+        </section>
+        <section class="container">
+            <img class="senha" src="assets/senha.png" alt="Senha">
+            <input id="password" type="password" placeholder="Senha" required>
+        </section>
+        <section class="acao">
+            <button id="loginButton" type="submit">Entrar</button>
+            <div class="outros">
+                <div class="outro-item">Esqueceu sua senha?</div>
+                <div class="outro-item">Ainda não é cadastrado?</div>
+            </div>
+            <button id="registerButton" type="button">Cadastrar-se</button>
+            <div id="errorMessages" class="error-messages"></div>
+        </section>
+    </main>
+    <footer>
+        <h1>Siga-nos nas redes sociais</h1>
+        <div class="redes-sociais">
+            <img class="face" src="assets/logo face.jpg" alt="Facebook">
+            <img class="insta" src="assets/logo insta.jfif" alt="Instagram">
+        </div>
+    </footer>
+    <script src="scripts/login.js"></script>
+</body>
+</html>
